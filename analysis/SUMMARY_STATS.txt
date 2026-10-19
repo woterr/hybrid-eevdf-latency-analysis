@@ -1,0 +1,23 @@
+wakeup latency summary, N=30 per experiment
+source: /mnt/shared/Projects/RP1/phase2/rigorous_results_20261019_212023
+
+Exp A floating 0-17    p50        median=43.0   min=39     max=49     n=30
+Exp A floating 0-17    p90        median=71.0   min=53     max=85     n=30
+Exp A floating 0-17    p99        median=137.0  min=68     max=827    n=30
+Exp A floating 0-17    p99.9      median=162.0  min=79     max=2836   n=30
+Exp A floating 0-17    max        median=162.0  min=79     max=2835   n=30
+Exp A floating 0-17    p99.9 >  250 us: 13/30 runs
+Exp A floating 0-17    p99.9 >  500 us: 12/30 runs
+Exp A floating 0-17    p99.9 > 1000 us: 5/30 runs
+Exp A floating 0-17    p99.9 > 2000 us: 1/30 runs
+
+Exp B pinned E 12-17   p50        median=44.0   min=7      max=46     n=30
+Exp B pinned E 12-17   p90        median=64.5   min=51     max=83     n=30
+Exp B pinned E 12-17   p99        median=139.0  min=89     max=2276   n=30
+Exp B pinned E 12-17   p99.9      median=701.0  min=119    max=2852   n=30
+Exp B pinned E 12-17   max        median=700.5  min=119    max=2855   n=30
+Exp B pinned E 12-17   p99.9 >  250 us: 19/30 runs
+Exp B pinned E 12-17   p99.9 >  500 us: 18/30 runs
+Exp B pinned E 12-17   p99.9 > 1000 us: 4/30 runs
+Exp B pinned E 12-17   p99.9 > 2000 us: 2/30 runs
+

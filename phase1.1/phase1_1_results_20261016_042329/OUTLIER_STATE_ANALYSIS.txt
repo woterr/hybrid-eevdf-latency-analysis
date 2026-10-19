@@ -1,0 +1,16 @@
+==========================================================================================
+                     PHASE 1.1 SCHED_SWITCH OUTLIER ANALYSIS REPORT                       
+==========================================================================================
+Schbench Log Summary (Wakeup Latencies):
+	  min=2, max=836
+Request Latencies percentiles (usec) runtime 30 (s) (232 total samples)
+--
+Wakeup Latencies percentiles (usec) runtime 30 (s) (240 total samples)
+	  50.0th: 43         (73 samples)
+	  90.0th: 55         (87 samples)
+	* 99.0th: 82         (19 samples)
+	  99.9th: 837        (2 samples)
+	  min=2, max=836
+Request Latencies percentiles (usec) runtime 30 (s) (240 total samples)
+------------------------------------------------------------------------------------------
+Checking core occupancy around schbench thread wakeups...

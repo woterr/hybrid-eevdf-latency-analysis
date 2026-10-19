@@ -1,0 +1,40 @@
+Wakeup Latencies percentiles (usec) runtime 10 (s) (79 total samples)
+	  50.0th: 40         (23 samples)
+	  90.0th: 81         (32 samples)
+	* 99.0th: 148        (7 samples)
+	  99.9th: 148        (0 samples)
+	  min=3, max=148
+Request Latencies percentiles (usec) runtime 10 (s) (72 total samples)
+	  50.0th: 1004544    (43 samples)
+	  90.0th: 1004544    (0 samples)
+	* 99.0th: 1008640    (2 samples)
+	  99.9th: 1008640    (0 samples)
+	  min=1003479, max=1007666
+RPS percentiles (requests) runtime 10 (s) (11 total samples)
+	  20.0th: 7          (11 samples)
+	* 50.0th: 7          (0 samples)
+	  90.0th: 7          (0 samples)
+	  min=7, max=7
+sched delay: message 0 (usec) worker 37 (usec)
+current rps: 8.00
+Wakeup Latencies percentiles (usec) runtime 15 (s) (119 total samples)
+	  50.0th: 42         (35 samples)
+	  90.0th: 78         (48 samples)
+	* 99.0th: 148        (10 samples)
+	  99.9th: 931        (1 samples)
+	  min=1, max=930
+Request Latencies percentiles (usec) runtime 15 (s) (120 total samples)
+	  50.0th: 1004544    (82 samples)
+	  90.0th: 1004544    (0 samples)
+	* 99.0th: 1006592    (1 samples)
+	  99.9th: 1008640    (1 samples)
+	  min=1003479, max=1007666
+RPS percentiles (requests) runtime 15 (s) (16 total samples)
+	  20.0th: 7          (16 samples)
+	* 50.0th: 7          (0 samples)
+	  90.0th: 7          (0 samples)
+	  min=7, max=7
+average rps: 8.00
+sched delay: message 0 (usec) worker 0 (usec)
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.090 MB rigorous_results_20261019_212023/exp_b/run_21.perf (499 samples) ]

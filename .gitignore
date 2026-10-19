@@ -1,0 +1,8 @@
+# phase 0 dumped ~100 MB of raw perf data (54 MB text + 46 MB binary).
+# Kept locally, not committed.
+phase0/raw_load/perf.data
+phase0/raw_load/perf_events.raw
+
+# python caches
+__pycache__/
+*.pyc

@@ -1,4 +1,4 @@
-# hybrid-eevdf-latency-analysis
+o# hybrid-eevdf-latency-analysis
 
 I wanted to know what actually happens to a latency-sensitive task on an
 Intel hybrid CPU when some batch job is pegging the P-cores. Not benchmark
@@ -55,8 +55,8 @@ Long version with the per-run numbers and the trace breakdown:
 
 The full write-up is [paper/Tail_Wakeup_Latency_Hybrid_CPUs.pdf](paper/Tail_Wakeup_Latency_Hybrid_CPUs.pdf)
 (DOCX next to it, generator in `paper/build_paper.py`, figures in
-`paper/make_figures.py`). It is archived on Zenodo:
-[10.5281/zenodo.23674242](https://doi.org/10.5281/zenodo.23674242).
+`paper/make_figures.py`). It is archived on Preprints:
+[10.20944/preprints202610.2635.v1](https://doi.org/10.20944/preprints202610.2635.v1).
 
     @misc{vattikuti2026tailwakeup,
       title        = {Tail Wakeup Latency on Intel Hybrid CPUs: Evaluating Linux
@@ -64,8 +64,8 @@ The full write-up is [paper/Tail_Wakeup_Latency_Hybrid_CPUs.pdf](paper/Tail_Wake
       author       = {Shreyas Vattikuti},
       year         = {2026},
       month        = {oct},
-      doi          = {10.5281/zenodo.23674242},
-      url          = {https://zenodo.org/records/23674242}
+      doi          = {10.20944/preprints202610.2635.v1},
+      url          = {https://doi.org/10.20944/preprints202610.2635.v1}
     }
 
 ## How to run it
